@@ -5,6 +5,7 @@ package com.yao.sort;
  * 插入排序
  * </a></b>
  * <pre>演示地址：<a href="https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html">Comparison Sorting Algorithms</a></pre>
+ * <pre>描述：往后抽取，并一直向前比较、插入</pre>
  * <ul>
  *     <li>时间复杂度<pre>n^2</pre></li>
  *     <li>空间复杂度<pre>1</pre></li>

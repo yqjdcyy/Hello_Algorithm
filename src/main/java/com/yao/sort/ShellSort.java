@@ -1,5 +1,7 @@
 package com.yao.sort;
 
+import com.yao.utils.ArrayUtils;
+
 /**
  * <b><a href="https://images2017.cnblogs.com/blog/849589/201710/849589-20171015224719590-1433219824.gif">
  * 希尔排序
@@ -25,14 +27,16 @@ public final class ShellSort {
         final int length = array.length;
 
         for (int gap = length / GAP_SIZE; gap > 0; gap /= GAP_SIZE) {
-            for (int i = gap; i < length; i++) {
-                int index = i - gap;
-                int value = array[i];
-                while (index >= 0 && array[index] >= value) {
-                    array[index + gap] = array[index];
-                    index -= gap;
+            for (int i = 0; i < length - 1; i += gap) {
+                int idx = i;
+                for (int j = i + gap; j < length; j += gap) {
+                    if (array[j] < array[idx]) {
+                        idx = j;
+                    }
                 }
-                array[index + gap] = value;
+                if (idx != i) {
+                    ArrayUtils.swap(array, i, idx);
+                }
             }
         }
 
