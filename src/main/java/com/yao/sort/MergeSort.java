@@ -6,7 +6,8 @@ import java.util.Arrays;
  * <b><a href="https://images2017.cnblogs.com/blog/849589/201710/849589-20171015230557043-37375010.gif">
  * 合并排序
  * </a></b>
- * <pre>演示地址：<a href="https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html">Comparison Sorting Algorithms</a></pre>
+ * <pre><b>描述：</b>拆分（有终点）+ 重新合并</pre>
+ * <pre><b>演示地址：</b><a href="https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html">Comparison Sorting Algorithms</a></pre>
  * <ul>
  *     <li>时间复杂度<pre>n*log2(n)</pre></li>
  *     <li>空间复杂度<pre>n</pre></li>

@@ -10,8 +10,9 @@ import java.util.List;
  * <b><a href="https://images2017.cnblogs.com/blog/849589/201710/849589-20171015232453668-1397662527.gif">
  * 基数排序
  * </a></b>
- * <pre>演示地址：<a href="https://www.cs.usfca.edu/~galles/visualization/RadixSort.html">Radix Sort</a></pre>
- * <pre>数量远大于十的整数场景</pre>
+ * <pre><b>描述：</b>将数据补全至一样的长度后，从低位到高位依次将数据置入对应的数组中（此时为个数）；后按数据、置入顺序取出，向左移位（十位）后，重复操作至最后一位</pre>
+ * <pre><b>演示地址：</b><a href="https://www.cs.usfca.edu/~galles/visualization/RadixSort.html">Radix Sort</a></pre>
+ * <pre><b>适用场景：</b>数量远大于十的整数场景</pre>
  * <ul>
  *     <li>时间复杂度<pre>n*k</pre></li>
  *     <li>空间复杂度<pre>n+k</pre></li>

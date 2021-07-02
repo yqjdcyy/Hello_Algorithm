@@ -6,8 +6,10 @@ import com.yao.utils.ArrayUtils;
  * <b><a href="https://images2017.cnblogs.com/blog/849589/201710/849589-20171015232107090-1920702011.png">
  * 桶排序
  * </a></b>
- * <pre>演示地址：<a href="https://www.cs.usfca.edu/~galles/visualization/CountingSort.html">Counting Sort</a></pre>
- * <pre>适用场景：内容不多，数据集中场景</pre>
+ * <pre><b>描述：</b>通过最大、小值界定有限的桶（每个桶各有数值范围)，并依次将数据按范围、桶内值顺序插入；最后按桶、桶内顺序依次读取</pre>
+ * <pre><b>演示地址：</b><a href="https://www.cs.usfca.edu/~galles/visualization/CountingSort.html">Counting Sort</a></pre>
+ * <pre><b>适用场景：</b>内容不多，数据集中场景</pre>
+ * <img src="http://doc.yqjdcyy.com/9ad1408d-4e28-4e22-945e-3c09ff338c06.png">
  * <ul>
  *     <li>时间复杂度<pre>n+k</pre></li>
  *     <li>空间复杂度<pre>k</pre></li>

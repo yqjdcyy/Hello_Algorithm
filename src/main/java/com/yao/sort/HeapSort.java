@@ -6,7 +6,8 @@ import com.yao.utils.ArrayUtils;
  * <b><a href="https://images2017.cnblogs.com/blog/849589/201710/849589-20171015231308699-356134237.gif">
  * 堆排序
  * </a></b>
- * <pre>演示地址：<a href="https://www.cs.usfca.edu/~galles/visualization/HeapSort.html">Heap Sort</a></pre>
+ * <pre><b>描述：</b>首先将原数据排列为大顶堆（节点元素值较其叶子值都大）；其次将堆顶元素与最后值交换并进行堆代（排除交换值）</pre>
+ * <pre><b>演示地址：</b><a href="https://www.cs.usfca.edu/~galles/visualization/HeapSort.html">Heap Sort</a></pre>
  * <ul>
  *     <li>时间复杂度<pre>n*log2(n)</pre></li>
  *     <li>空间复杂度<pre>1</pre></li>

@@ -8,8 +8,9 @@ import java.util.Arrays;
  * <b><a href="https://images2017.cnblogs.com/blog/849589/201710/849589-20171015231740840-6968181.gif">
  * 计数排序
  * </a></b>
- * <pre>演示地址：<a href="https://www.cs.usfca.edu/~galles/visualization/CountingSort.html">Counting Sort</a></pre>
- * <pre>适用场景：内容不多，数据集中场景</pre>
+ * <pre><b>描述：</b>将结果统计至数值数组，并统计相应的命中次数；后按数据序号和次数值重新渲染结果</pre>
+ * <pre><b>演示地址：</b><a href="https://www.cs.usfca.edu/~galles/visualization/CountingSort.html">Counting Sort</a></pre>
+ * <pre><b>适用场景：</b>内容不多，数据集中场景</pre>
  * <ul>
  *     <li>时间复杂度<pre>n+k</pre></li>
  *     <li>空间复杂度<pre>k</pre></li>
