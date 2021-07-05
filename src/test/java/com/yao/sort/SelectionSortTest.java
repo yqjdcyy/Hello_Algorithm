@@ -14,7 +14,7 @@ public class SelectionSortTest {
 
     @Before
     public void setUp() throws Exception {
-        array = ArrayUtils.init(10);
+        array = ArrayUtils.init(100);
     }
 
     @Test

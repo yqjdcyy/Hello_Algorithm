@@ -26,13 +26,12 @@ public final class SelectionSort {
 
         for (int i = 0; i < length - 1; i++) {
             int idx = i;
-            for (int j = i + 1; j <= length - 1; j++) {
-
+            for (int j = i + 1; j < length; j++) {
                 if (array[j] < array[idx]) {
                     idx = j;
                 }
             }
-            if (idx != i) {
+            if (i != idx) {
                 ArrayUtils.swap(array, i, idx);
             }
         }
